@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5adb959.css",
+    "main.js": "/static/js/main.b87c05e9.js",
+    "static/media/p2.png": "/static/media/p2.ea5df5ba877bf94bb0e4.png",
+    "static/media/p1.png": "/static/media/p1.8812c55505193cce4657.png",
+    "static/media/Vijay.jpg": "/static/media/Vijay.0b7596a7e53982d71465.jpg",
+    "index.html": "/index.html",
+    "main.a5adb959.css.map": "/static/css/main.a5adb959.css.map",
+    "main.b87c05e9.js.map": "/static/js/main.b87c05e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5adb959.css",
+    "static/js/main.b87c05e9.js"
+  ]
+}

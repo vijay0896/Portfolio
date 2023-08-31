@@ -1,0 +1,114 @@
+.about {
+  background-color: rgb(255, 255, 255);
+  margin-top: 16%;
+  position: relative;
+  width: 90.5%;
+  overflow: hidden;
+  height: auto; /* Change to auto to allow height to adjust to content */
+  left: 4.7%;
+  margin-bottom: -10%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.148);
+}
+
+#intro {
+  font-family: "Poppins", bold;
+  font-size: 3.6rem;
+  color: rgb(7, 0, 0);
+  position: relative;
+  margin-left: 12.7%;
+  margin-top: 5%;
+}
+
+#name {
+  font-family: "Poppins", bold;
+  font-size: 1.6rem;
+  color: rgb(7, 0, 0);
+  position: relative;
+  margin-left: 12.5%;
+  margin-top: 1%;
+}
+
+#int {
+  font-family: "Avenir", light;
+  font-size: 18px;
+  position: relative;
+  margin-left: 12.8%;
+  margin-top: 2%;
+  color: #000;
+}
+
+#abb {
+  bottom: 14vh;
+  height: 2rem;
+  width: 9rem;
+  padding-top: 0.2rem;
+  position: absolute;
+  left: 12.5%;
+  color: rgb(255, 255, 255);
+  font-family: "Avenir", light;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 1%;
+  box-shadow: 1px 1px 5px rgb(187, 187, 187);
+  background-color: #0050ff;
+}
+
+.img {
+  width: 23.3%;
+  height: 90%;
+  position: relative;
+  margin-left: 76.7%;
+  margin-top: -20.7%;
+  display: inline-block;
+  
+}
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .about {
+    margin-top: 10%;
+    width: 100%;
+    left: 0;
+    margin-bottom: -5%;
+    background-color: #f2f2f2;
+  }
+  
+  #intro {
+    font-size: 2.5rem;
+    margin-left: 5%;
+  }
+  
+  #name {
+    font-size: 1.2rem;
+    margin-left: 5%;
+    margin-top: 0.5rem;
+  }
+  
+  #int {
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-top: 1rem;
+  }
+  
+  #abb {
+    bottom: 10%;
+    left: 5%;
+    width: 7rem;
+    font-size: 1rem;
+  }
+  
+  .img {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: -10%;
+    height: 8rem;
+    overflow: hidden; /* Clip the image into a circle */
+    border-radius: 50%; /* Make the image circular */
+  }
+  .circle-img {
+    width: 100%; /* Ensure the image takes the full width of the container */
+    height: 100%; /* Ensure the image takes the full height of the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    position: relative;
+  }
+}

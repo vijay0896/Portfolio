@@ -1,0 +1,44 @@
+.fot {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 17%;
+    position: relative;
+    height: 16vh;
+    overflow: hidden;
+    font-family: "Avenir", bold;
+    font-size: 1.3vw;
+  }
+  
+  #ph {
+    position: relative;
+    left: 4.5%;
+    top: 18%;
+  }
+  
+  #email {
+    position: relative;
+    left: 74%;
+    top: -18%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .fot {
+      margin-top: 10%;
+      height: auto;
+    }
+    
+    #ph {
+      left: 2%;
+      top: 10%;
+    }
+    
+    #email {
+      left: 60%;
+      top: -10%;
+    }
+    
+    .fot p {
+      font-size: 1.5rem;
+    }
+  }
+  
