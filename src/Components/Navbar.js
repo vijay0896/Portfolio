@@ -1,7 +1,7 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import React from "react";
 import { NavLink } from "react-router-dom";
+import "../Componetscss/nav.css";
 
 function Navbar() {
   const navRef = useRef();

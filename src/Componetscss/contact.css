@@ -1,0 +1,115 @@
+.a1{top: 20%;
+    position: relative;height: 75vh;
+    }
+    .contme {
+      position: relative;
+      left: 284px;
+      margin-top: 15%;
+      overflow-y: hidden;
+      font-family: "Avenir", bold;
+      font-size: 30px;
+      color: #000000;
+      display: inline-block;
+    }
+    .location {
+      position: relative;
+      left: 285px;
+     top: 8%;
+      overflow-y: hidden;
+      font-family: "Avenir", bold;
+      font-size: 20px;
+      color: #000000;
+    }
+    .phno {
+      position: relative;
+      left: 285px;
+      top: 14%;
+      overflow-y: hidden;
+      font-family: "Avenir";
+      font-size: 20px;
+      color: #000000;
+    }
+    .mail {
+      position: relative;
+      left: 285px;
+      top: 145px;
+      overflow-y: hidden;
+      font-family: "Avenir";
+      font-size: 20px;
+      color: #000000;
+    }
+    
+    #txt {
+      border: none;
+      background-color: #ffffff;
+      box-sizing: border-box;
+      color: #000;
+      position: relative;
+      width: 400px;
+      height: 36px;
+      left: 50%;
+     bottom:  45px;
+      border: 1px solid #000000;
+      font-size: 20px;
+      font-family: "Avenir", bold;
+      border-radius: 2px;
+      overflow-y: hidden;
+    }
+    #mailb {
+      border: none;
+      background-color: #ffffff;
+      box-sizing: border-box;
+    
+      position: relative;
+      width: 400px;
+      height: 36px;
+      left: 50%;
+      bottom:  10px;
+      border: 1px solid #000000;
+      font-size: 18px;
+      font-family: "Avenir", bold;
+      border-radius: 2px;
+      overflow-y: hidden;
+    }
+    #msg {
+      border: none;
+      background-color: #ffffff;
+      box-sizing: border-box;
+    
+      position: relative;
+      width: 400px;
+      height: 70px;
+      left: 50%;
+      bottom:  -25px;
+      border: 1px solid #000000;
+      font-size: 20px;
+      font-family: "Avenir", bold;
+      border-radius: 2px;
+      overflow-y: hidden;
+    }
+    
+    #btn {
+      border: none;
+      background-color: #0548ffe1;
+      box-sizing: border-box;
+      position: relative;
+      width: 125px;
+      height: 36px;
+      left: 275px;
+      top: 90px;
+      border: 1px;
+      font-size: 22px;
+      font-family: "Avenir", bold;
+      border-radius: 2px;
+      overflow-y: hidden;
+    }
+    input::placeholder {
+      padding-left: 15px;
+      font-size: 20px;
+      color: #000;
+      overflow-y: hidden;
+    }
+    #btn {
+      color: rgb(255, 255, 255);
+      overflow-y: hidden;
+    }
